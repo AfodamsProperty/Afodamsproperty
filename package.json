@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "http-proxy-middleware": "^3.0.3"
+  }
+}

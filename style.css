@@ -1,0 +1,224 @@
+/* General Styling for Body */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fefdfd !important;
+}
+
+.navbar {
+  padding: 0.8rem;
+}
+
+.nav-item .nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.offcanvas {
+  padding: 1.5rem;
+}
+
+/* Coming Soon Section */
+.container-comingbuilding {
+  background-image: url(/alena%20deal%20closed.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+}
+
+.COMING {
+  margin-top: 10%;
+  font-size: 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.Building {
+  margin-top: 5%;
+  font-size: 2.2rem;
+  color: #eee;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* background: #6b6868; */
+  opacity: 70%;
+  background-color: #000000;
+}
+
+.from {
+  color: rgb(216, 136, 6);
+  font-weight: bold;
+  
+}
+
+/* Countdown Timer */
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 6rem;
+  color: rgb(10, 150, 27);
+  margin: 5rem 0;
+}
+
+#countdown div {
+  text-align: center;
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#countdown .circle {
+  width: 100px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border-radius: 50%; /* Makes the div circular */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #0a961b; /* Green color for text */
+}
+
+#countdown .circle span {
+  display: block;
+  font-size: 1.5rem;
+}
+
+#countdown .circle .count {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+
+
+/* Form Styling */
+.form {
+  margin: 3rem auto;
+  background-color: rgb(247, 238, 206);
+  padding: 2rem;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form .form-label {
+  font-size: 1.2rem;
+}
+
+.form input {
+  margin-bottom: 1rem;
+}
+
+/* Social Media Links */
+/* Social Media Links - Ensure Vertical Layout */
+.links ul {
+  list-style-type: none; /* Removes bullets */
+  padding: 0;
+  margin: 0;
+  display:inline-flex; /* Ensure block layout */
+}
+
+.links ul li {
+  margin-bottom: 10px; /* Adds space between icons */
+  text-align: center; /* Centers icons horizontally */
+}
+
+.links img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.links img:hover {
+  transform: scale(1.2);
+}
+
+.note-field {
+  width: 100%; /* Makes the field take up the full width of its container */
+  min-width: 300px; /* Ensures it doesn't get too small */
+  max-width: 600px; /*  restricts the maximum width */
+}
+
+/* Footer */
+.rights {
+  margin: 2rem 0;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.address {
+  color: rgb(246, 150, 41);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .COMING {
+    font-size: 2rem;
+  }
+
+  .Building {
+    font-size: 1.5rem;
+  }
+
+  .links img {
+    width: 25px;
+    height: 25px;
+  }
+
+  #countdown {
+    flex-direction:row; /* Stacks the timer vertically on small screens */
+  }
+
+  .form {
+    width: 90%; /* Adjusts form size on smaller screens */
+  }
+}
+.spinner-border {
+  display: block;
+  margin: 2rem auto; /* Center the spinner */
+}
+
+
+.links{
+display: block;
+
+
+}
+
+
+
+
+
+
+@media (min-width: 320px) {
+  .container-comingbuilding {
+    padding: 15%;
+    /* display: block; */
+  }
+
+  .form {
+    padding: 3rem;
+  }
+
+  .links img {
+    width: 40px;
+    height: 40px;
+  }
+}
+.spinner-border {
+  display: block;
+  margin: 2rem auto; /* Center the spinner */
+}
